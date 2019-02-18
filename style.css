@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(to right, #cfdef3, #e0eafc);
+  font-family: Helvetica;
+}
+
+h1,
+p {
+  font-family: Lato;
+}
+
+.contact-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.contact-card h2 {
+  font-weight: bold;
+}
+
+.contact-card img {
+  max-height: 100px;
+  margin: 20px 10px 10px 5px;
+}
+
+.contact-card .bio {
+  display: flex;
+}
